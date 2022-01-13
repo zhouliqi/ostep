@@ -2,7 +2,7 @@
 
 > [讲义链接](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-mechanisms.pdf)
 
-## 
+> 这一节主要介绍 CPU 的上下文切换过程
 
 Q1：测试系统调用所花费的时间？
 

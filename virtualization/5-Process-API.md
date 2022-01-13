@@ -2,6 +2,8 @@
 
 > [讲义链接](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-api.pdf)
 
+> 这一节主要是介绍 OS 提供的系统调用 API
+
 ## Questions
 
 1. 了解父进程调用 `fork` 的时候， OS 做了那些工作？
