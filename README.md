@@ -12,8 +12,9 @@
 |                             章节                             |                             解答                             |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
 | [5 - Process API](http://www.cs.wisc.edu/~remzi/OSTEP/cpu-api.pdf) | [solution](https://github.com/zhouliqi/ostep/blob/main/virtualization/5-Process-API.md) |
-| [6 - Direct Execution](http://www.cs.wisc.edu/~remzi/OSTEP/cpu-mechanisms.pdf)] | [solution](https://github.com/zhouliqi/ostep/blob/main/virtualization/6-Limited-Direct-Execution.md) |
+| [6 - Direct Execution](http://www.cs.wisc.edu/~remzi/OSTEP/cpu-mechanisms.pdf) | [solution](https://github.com/zhouliqi/ostep/blob/main/virtualization/6-Limited-Direct-Execution.md) |
 | [7 - Scheduling: Introduction](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched.pdf) | [solution](https://github.com/zhouliqi/ostep/blob/main/virtualization/7-Scheduling:Introduction.md) |
+| [8 - Scheduling: The Multi-Level Feedback Queue](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched-mlfq.pdf) | [solution](https://github.com/zhouliqi/ostep/blob/main/virtualization/8-Scheduling:MLFQ.md) |
 
 
 
