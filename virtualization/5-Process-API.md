@@ -4,9 +4,9 @@
 
 > 这一节主要是介绍 OS 提供的系统调用 API
 
-## Questions
+## 问题
 
-1. 了解父进程调用 `fork` 的时候， OS 做了那些工作？
+Q1：了解父进程调用 `fork` 的时候， OS 做了那些工作？
 
 > fork 系统调用的时候，子进程是父进程的拷贝（COW），父子进程都有自己的内存空间，所以在父进程修改 `x` 的值不会影响子进程；反之亦然。
 
@@ -35,7 +35,7 @@ int main(int argc, char *argv[]) {
 
 
 
-2. 父进程 `open` 一个文件，`fork` 一个子进程，然后父子进程同时对这个文件读写会发生什么？
+Q2：父进程 `open` 一个文件，`fork` 一个子进程，然后父子进程同时对这个文件读写会发生什么？
 
 > 同上，`fork` 的时候子进程也拷贝了父进程打开的文件描述符，我这里测试的时候父子进程会接替执行
 
@@ -82,7 +82,7 @@ int main(int argc, char *argv[]) {
 
 
 
-3. 不使用 `wait` 系统调用，让 `fork` 的子进程比父进程先运行
+Q3：不使用 `wait` 系统调用，让 `fork` 的子进程比父进程先运行
 
 > 在父进程 `sleep` 一下，或者使用 `vfork` 系统调用
 
@@ -108,7 +108,7 @@ int main(int argc, char *argv[]) {
 
 
 
-4. 测试 `exec` 函数族
+Q4：测试 `exec` 函数族
 
 > `exec` 函数族是为了适应不同的调用形式和环境
 
@@ -166,7 +166,7 @@ int main(int argc, char *argv[]) {
 
 
 
-5. `wait` 系统调用
+Q5：`wait` 系统调用
 
 > 父进程使用 `wait()` 返回子进程 `PID`，子进程由于本身没有子进程，所以返回 `-1`
 
@@ -194,7 +194,7 @@ int main(int argc, char *argv[]) {
 
 
 
-6. `waitpid` 系统调用
+Q6：`waitpid` 系统调用
 
 > 在进程有子进程的时候有用
 
@@ -237,7 +237,7 @@ int main(int argc, char *argv[]) {
 
 
 
-7. `close` 系统调用
+Q7：`close` 系统调用
 
 > 子进程关闭了 `STDOUT_FILENO` 之后，那么使用 `printf` 就无法向屏幕显示内容了
 
@@ -268,7 +268,7 @@ int main(int argc, char *argv[]) {
 
 
 
-8. `pipe` 系统调用
+Q8：`pipe` 系统调用
 
 > 创建一个管道，然后再 `fork` 两个子进程，其中一个向管道的一端写内容，另一个向管道的另一端读取内容
 

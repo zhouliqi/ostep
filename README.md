@@ -16,6 +16,7 @@
 | [7 - Scheduling: Introduction](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched.pdf) | [solution](https://github.com/zhouliqi/ostep/blob/main/virtualization/7-Scheduling:Introduction.md) |
 | [8 - Scheduling: The Multi-Level Feedback Queue](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched-mlfq.pdf) | [solution](https://github.com/zhouliqi/ostep/blob/main/virtualization/8-Scheduling:MLFQ.md) |
 | [9 - Scheduling: Proportional Share](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched-lottery.pdf) | [solution](https://github.com/zhouliqi/ostep/blob/main/virtualization/9-Scheduling:Proportional-Share.md) |
+| [10 - Multiprocessor Scheduling](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched-multi.pdf) |         [solution](10-Multiprocessor-Scheduling.md)          |
 
 
 
