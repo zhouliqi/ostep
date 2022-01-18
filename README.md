@@ -9,6 +9,8 @@
 
 > 主要记录 hw 中自己的见解
 
+### Virtualization
+
 |                             章节                             |                             解答                             |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
 | [5 - Process API](http://www.cs.wisc.edu/~remzi/OSTEP/cpu-api.pdf) | [solution](https://github.com/zhouliqi/ostep/blob/main/virtualization/5-Process-API.md) |
@@ -18,10 +20,12 @@
 | [9 - Scheduling: Proportional Share](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched-lottery.pdf) | [solution](https://github.com/zhouliqi/ostep/blob/main/virtualization/9-Scheduling:Proportional-Share.md) |
 | [10 - Multiprocessor Scheduling](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched-multi.pdf) | [solution](https://github.com/zhouliqi/ostep/blob/main/virtualization/10-Multiprocessor-Scheduling.md) |
 | [13 - The Abstraction: Address Spaces](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-intro.pdf) | [solution](https://github.com/zhouliqi/ostep/blob/main/virtualization/13-The-Abstraction:Address-Spaces.md) |
+| [14 - Interlude: Memory API]([讲义链接](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-api.pdf)) | [solution](https://github.com/zhouliqi/ostep/blob/main/virtualization/14-Interlude:Memory-API.md) |
 
 
 
 ## OS
 
-> Ubuntu 18.04.6 LTS
+> - Ubuntu 18.04.6 LTS
+> - gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0
 
