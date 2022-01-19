@@ -20,7 +20,8 @@
 | [9 - Scheduling: Proportional Share](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched-lottery.pdf) | [solution](https://github.com/zhouliqi/ostep/blob/main/virtualization/9-Scheduling:Proportional-Share.md) |
 | [10 - Multiprocessor Scheduling](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched-multi.pdf) | [solution](https://github.com/zhouliqi/ostep/blob/main/virtualization/10-Multiprocessor-Scheduling.md) |
 | [13 - The Abstraction: Address Spaces](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-intro.pdf) | [solution](https://github.com/zhouliqi/ostep/blob/main/virtualization/13-The-Abstraction:Address-Spaces.md) |
-| [14 - Interlude: Memory API]([讲义链接](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-api.pdf)) | [solution](https://github.com/zhouliqi/ostep/blob/main/virtualization/14-Interlude:Memory-API.md) |
+| [14 - Interlude: Memory API](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-api.pdf) | [solution](https://github.com/zhouliqi/ostep/blob/main/virtualization/14-Interlude:Memory-API.md) |
+| [15 - Mechanism: Address Translation](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-mechanism.pdf) | [solution](https://github.com/zhouliqi/ostep/blob/main/virtualization/15-Mechanism:Address-Translation.md) |
 
 
 
