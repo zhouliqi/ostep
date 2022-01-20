@@ -22,6 +22,7 @@
 | [13 - The Abstraction: Address Spaces](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-intro.pdf) | [solution](https://github.com/zhouliqi/ostep/blob/main/virtualization/13-The-Abstraction:Address-Spaces.md) |
 | [14 - Interlude: Memory API](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-api.pdf) | [solution](https://github.com/zhouliqi/ostep/blob/main/virtualization/14-Interlude:Memory-API.md) |
 | [15 - Mechanism: Address Translation](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-mechanism.pdf) | [solution](https://github.com/zhouliqi/ostep/blob/main/virtualization/15-Mechanism:Address-Translation.md) |
+| [16 - Segmentation](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-segmentation.pdf) | [solution](https://github.com/zhouliqi/ostep/blob/main/virtualization/16-Segmentation.md) |
 
 
 

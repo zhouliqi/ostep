@@ -25,7 +25,7 @@
 
 ## 模拟实验
 
-Q1：在 seed 为 1,2,3 的情况下，运行 `./relocation.py`，是否产生的地址有效？
+**Q1**：在 seed 为 1,2,3 的情况下，运行 `./relocation.py`，是否产生的地址有效？
 
 ```bash
 ./relocation.py -s 1
@@ -43,7 +43,7 @@ Virtual Address Trace
 
 
 
-Q2：运行`./relocation.py -s 0 -n 10`，为了保证产生的虚拟地址有效，则 `-l` 的值至少应该为多少？
+**Q2**：运行`./relocation.py -s 0 -n 10`，为了保证产生的虚拟地址有效，则 `-l` 的值至少应该为多少？
 
 ```bash
 Virtual Address Trace
@@ -63,13 +63,13 @@ Virtual Address Trace
 
 
 
-Q3：运行`./relocation.py -s 0 -n 10 -l 100`，则 `base` 最大值可以为多少，使得它整个地址空间仍然可以适应物理内存？
+**Q3**：运行`./relocation.py -s 0 -n 10 -l 100`，则 `base` 最大值可以为多少，使得它整个地址空间仍然可以适应物理内存？
 
 > `Base` 的最大值可以为：`16k - 100`
 
 
 
-Q4：使用更大的地址空间（`-a`）和物理内存（`-p`）测试
+**Q4**：使用更大的地址空间（`-a`）和物理内存（`-p`）测试
 
 ```bash
 ./relocation.py -a 32k -p 1024k -c       
@@ -96,7 +96,7 @@ Virtual Address Trace
 
 
 
-Q5：随机生成的虚拟地址在什么情况下才是有效的？
+**Q5**：随机生成的虚拟地址在什么情况下才是有效的？
 
 > 生成的虚拟地址（VA）必须小于界地址寄存器的值才是有效的
 

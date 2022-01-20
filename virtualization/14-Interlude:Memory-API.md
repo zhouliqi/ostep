@@ -22,7 +22,7 @@ void func() {
 
 ## 问题
 
-Q1：编写一个有 bug 程序，不对 `int` 型指针初始化，然后解引用它，看看会出什么问题？
+**Q1**：编写一个有 bug 程序，不对 `int` 型指针初始化，然后解引用它，看看会出什么问题？
 
 ```c
 #include <stdio.h>
@@ -44,7 +44,7 @@ gcc -o null null.c
 
 
 
-Q2：使用 gdb 运行上面的程序，看看会输出什么？
+**Q2**：使用 gdb 运行上面的程序，看看会输出什么？
 
 > 如果要用 gdb 调试 c 程序，则编译时需要加上 `-g` 选项
 
@@ -61,7 +61,7 @@ Program received signal SIGSEGV, Segmentation fault.
 
 
 
-Q3：最后，在这个程序上使用 `valgrind` 工具，看看会输出什么信息？
+**Q3**：最后，在这个程序上使用 `valgrind` 工具，看看会输出什么信息？
 
 > 如果没有安装 `valgrind` 的话，先运行命令 `sudo apt update` 和 `sudo apt install valgrind`
 
@@ -99,7 +99,7 @@ valgrind --leak-check=yes ./null
 
 
 
-Q4：编写一个程序，它使用 `malloc` 申请了一块内存，但是在程序退出前并未释放这块内存。那么程序运行的时候会怎么样？能使用 gdb 发现问题吗？使用 `valgrind` 呢？
+**Q4**：编写一个程序，它使用 `malloc` 申请了一块内存，但是在程序退出前并未释放这块内存。那么程序运行的时候会怎么样？能使用 gdb 发现问题吗？使用 `valgrind` 呢？
 
 ```c
 #include <stdio.h>
@@ -146,7 +146,7 @@ valgrind --leak-check=yes ./malloc_bug
 
 
 
-Q5：编写一个程序，它会使用 `malloc` 申请一个大小为 100 的 `int` 型数组，然后初始化这 100 个位置为 0，当你运行这个程序时会发生什么？当你使用 valgrind 运行是会发生什么？程序是否正确？
+**Q5**：编写一个程序，它会使用 `malloc` 申请一个大小为 100 的 `int` 型数组，然后初始化这 100 个位置为 0，当你运行这个程序时会发生什么？当你使用 valgrind 运行是会发生什么？程序是否正确？
 
 > 未释放申请的内存
 
@@ -192,7 +192,7 @@ valgrind --leak-check=yes ./malloc_bug
 
 
 
-Q6：编写一个程序，，它会使用 `malloc` 申请一个大小为 100 的 `int` 型数组，再释放这块内存；然后再打印数组的某个位置的值。程序可以运行吗？当你使用 valgrind 运行是会发生什么？
+**Q6**：编写一个程序，，它会使用 `malloc` 申请一个大小为 100 的 `int` 型数组，再释放这块内存；然后再打印数组的某个位置的值。程序可以运行吗？当你使用 valgrind 运行是会发生什么？
 
 > 可以，结果输出了数字的值；检测到了两个无效的读取
 
@@ -255,7 +255,7 @@ valgrind --leak-check=yes ./malloc_bug
 
 
 
-Q7：释放 Q6 中指向数组中间的指针值，此时会发生什么？需要使用其他工具发现问题吗？
+**Q7**：释放 Q6 中指向数组中间的指针值，此时会发生什么？需要使用其他工具发现问题吗？
 
 > 不需要，程序会直接报错
 
@@ -281,7 +281,7 @@ free(): invalid pointer
 
 
 
-Q8：使用其他的内存分配的接口，例如 `realloc` 来维护 `vector`
+**Q8**：使用其他的内存分配的接口，例如 `realloc` 来维护 `vector`
 
 ```c
 #include <stdio.h>
@@ -304,7 +304,7 @@ int main(int argc, char *argv[]) {
 
 
 
-Q9：掌握 gdb 和 valgrind 的用法
+**Q9**：掌握 gdb 和 valgrind 的用法
 
 
 
