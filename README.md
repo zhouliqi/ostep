@@ -25,6 +25,7 @@
 | [16 - Segmentation](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-segmentation.pdf) | [solution](https://github.com/zhouliqi/ostep/blob/main/virtualization/16-Segmentation.md) |
 | [17 - Free Space](http://www.cs.wisc.edu/~remzi/OSTEP/vm-freespace.pdf) | [solution](https://github.com/zhouliqi/ostep/blob/main/virtualization/17-Free-Space-Management.md) |
 | [18 - Paging: Introduction](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-paging.pdf) | [solution](https://github.com/zhouliqi/ostep/blob/main/virtualization/18-Paging:Introduction.md) |
+| [19 - Paging: Faster Translations (TLBs)](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-tlbs.pdf) | [solution](https://github.com/zhouliqi/ostep/blob/main/virtualization/19-Paging:TLBs.md) |
 
 
 
