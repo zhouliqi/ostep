@@ -27,6 +27,7 @@
 | [18 - Paging: Introduction](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-paging.pdf) | [solution](https://github.com/zhouliqi/ostep/blob/main/virtualization/18-Paging:Introduction.md) |
 | [19 - Paging: Faster Translations (TLBs)](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-tlbs.pdf) | [solution](https://github.com/zhouliqi/ostep/blob/main/virtualization/19-Paging:TLBs.md) |
 | [20 - Paging: Smaller Tables](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-smalltables.pdf) | [solution](https://github.com/zhouliqi/ostep/blob/main/virtualization/20-Paging:Smaller-Tables.md) |
+| [21 - Beyond Physical Memory: Mechanisms](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-beyondphys.pdf) | [solution](https://github.com/zhouliqi/ostep/blob/main/virtualization/21-Beyond-Physical-Memory:Mechanisms.md) |
 
 
 
