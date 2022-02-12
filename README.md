@@ -32,8 +32,15 @@
 
 
 
+### Concurrency
+
+|                             章节                             |                             解答                             |
+| :----------------------------------------------------------: | :----------------------------------------------------------: |
+| [26 - Concurrency: An Introduction](http://www.cs.wisc.edu/~remzi/OSTEP/threads-intro.pdf) | [solution](https://github.com/zhouliqi/ostep/blob/main/virtualization/26-Concurrency:An-Introduction) |
+
+
+
 ## OS
 
 > - Ubuntu 18.04.6 LTS
 > - gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0
-
