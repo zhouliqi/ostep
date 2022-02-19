@@ -179,7 +179,9 @@ valgrind --tool=helgrind ./main-deadlock
 ==7968== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
 ==7968== Command: ./main-deadlock
 ==7968==
-==7968== ---Thread-Announcement------------------------------------------                     ==7968==                                                                                   ==7968== Thread #3 was created
+==7968== ---Thread-Announcement------------------------------------------
+==7968==
+==7968== Thread #3 was created
 ==7968==    at 0x518470E: clone (clone.S:71)
 ==7968==    by 0x4E4BEC4: create_thread (createthread.c:100)
 ==7968==    by 0x4E4BEC4: pthread_create@@GLIBC_2.2.5 (pthread_create.c:797)

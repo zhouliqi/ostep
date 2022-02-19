@@ -36,8 +36,9 @@
 
 |                             章节                             |                             解答                             |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| [26 - Concurrency: An Introduction](http://www.cs.wisc.edu/~remzi/OSTEP/threads-intro.pdf) | [solution](https://github.com/zhouliqi/ostep/blob/main/virtualization/26-Concurrency:An-Introduction.md) |
-| [27 - Interlude: Thread API](https://pages.cs.wisc.edu/~remzi/OSTEP/threads-api.pdf) | [solution](https://github.com/zhouliqi/ostep/blob/main/virtualization/27-Interlude:Thread-API.md) |
+| [26 - Concurrency: An Introduction](http://www.cs.wisc.edu/~remzi/OSTEP/threads-intro.pdf) | [solution](https://github.com/zhouliqi/ostep/blob/main/concurrency/26-Concurrency:An-Introduction.md) |
+| [27 - Interlude: Thread API](https://pages.cs.wisc.edu/~remzi/OSTEP/threads-api.pdf) | [solution](https://github.com/zhouliqi/ostep/blob/main/concurrency/27-Interlude:Thread-API.md) |
+| [28 - Locks](https://pages.cs.wisc.edu/~remzi/OSTEP/threads-locks.pdf) | [solution](https://github.com/zhouliqi/ostep/blob/main/concurrency/28-Locks.md) |
 
 
 
